@@ -5,7 +5,7 @@ This repository contains:
 
 # Caution!
 
-Do NOT use this in Production without *testing* it in a *safe* environment!
+Do NOT use this in Production without **testing** it in a **safe** environment!
 
 This repository *IS AS IS*.
 
