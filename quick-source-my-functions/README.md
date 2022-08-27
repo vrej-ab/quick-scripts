@@ -13,9 +13,9 @@ If you didn't clone this **[quick-scripts](https://github.com/vrej-ab/quick-scri
 git clone https://github.com/vrej-ab/quick-scripts.git && cd quick-scripts/quick-source-my-functions/ && ./_0_quick-source-functions.sh
 ```
 > This will 
-  \* clone the https://github.com/vrej-ab/quick-scripts.git repository
-  \* change directory to `quick-scripts/quick-source-my-functions/` - which contains the relevant scripts which will do the job for you.
-  \* Run the first script named: `_0_quick-source-functions.sh`
+> \* clone the https://github.com/vrej-ab/quick-scripts.git repository
+> \* change directory to `quick-scripts/quick-source-my-functions/` - which contains the relevant scripts which will do the job for you.
+> \* Run the first script named: `_0_quick-source-functions.sh`
 
 **Or** if you have cloned this **[quick-scripts](https://github.com/vrej-ab/quick-scripts)** repository already, go to `quick-scripts/quick-source-my-functions/` directory and run the first script by:
 ```bash
@@ -69,9 +69,9 @@ declare -F >> "new-functions-list.tmp"
 ```
 
 > `declare -F >> "existing-functions-list.tmp"` # This lists your current shell's existing functions.
-`source new-functions.tmp` # This sources the new functions (prepared by the previous script) to your current shell.
-`declare -F >> "new-functions-list.tmp"` # This lists your current shell’s functions including the new ones.
-`./_1_quick-source-functions-cleanup.sh` # This runs the second script in the current working directory which will provide a **short report** as you can see below and **removes** all the temporarily created files and directories. 
+> `source new-functions.tmp` # This sources the new functions (prepared by the previous script) to your current shell.
+> `declare -F >> "new-functions-list.tmp"` # This lists your current shell’s functions including the new ones.
+> `./_1_quick-source-functions-cleanup.sh` # This runs the second script in the current working directory which will provide a **short report** as you can see below and **removes** all the temporarily created files and directories.
 
 Output of the second `./_1_quick-source-functions-cleanup.sh` script is similar to:
 ```bash
