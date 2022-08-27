@@ -3,6 +3,10 @@ There is a repository named **[quick-functions](https://github.com/vrej-ab/quick
 
 This directory contains scripts that are intended to **clone** the **[quick-functions](https://github.com/vrej-ab/quick-functions)** repository gathering all its functions files in a temporarily file and **source** this file to get those functions in your current **BASH** session.
 
+This will make life easier by
+* Having all the usefull user-defined functions in one place/repository accessible from anywhere.
+* Being able to quickly implement them in any device running `BASH` in a few steps.
+
 ## How to use
 If you didn't clone this **[quick-scripts](https://github.com/vrej-ab/quick-scripts)** repository already, simply run the following commands in a line and follow the messages:
 ```bash
